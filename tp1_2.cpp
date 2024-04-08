@@ -1,7 +1,10 @@
 #include <stdio.h>
-int funcCuadra(int num);
+int funcCuadrado(int num);
+
 void cuadVoid(int num);
+
 void invertir(int a,int b);
+
 void ordenar(int a, int b, int *menor, int *mayor);
 
 int main(){
@@ -10,7 +13,7 @@ int main(){
     int num=2;
     int a;
     int b;
-    funcCuadra(num);
+    funcCuadrado(num);
     cuadVoid(num);
     printf("Ingrese a num a inverir:");
     scanf("%d",&a);
@@ -24,7 +27,7 @@ int main(){
    return 0;
 }
 
-int funcCuadra(int num){
+int funcCuadrado(int num){
     int cuadr=num*num;
     return cuadr;
 
